@@ -9,6 +9,10 @@ it's my responsibility to deploy a new version of the application that ensures 1
 ### QA Report
 Initial Test: 14000 Request sent to URL Shortener Application
 Initial Results: 8 requests were not successful
-Summary sent to Devops Engineer: Application Infrastructure does not meet the required simultaneous 14,000 minimum traffic requests
+Summary sent to Devops Engineer: Application Infrastructure does not meet the required simultaneous 14,000 minimum traffic requests.
+
+### Resolution Steps
+
+### 
 
 

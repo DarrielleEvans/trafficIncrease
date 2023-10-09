@@ -13,6 +13,6 @@ Summary sent to Devops Engineer: Application Infrastructure does not meet the re
 
 ### Resolution Steps
 
-### 
+### Summary
 
 

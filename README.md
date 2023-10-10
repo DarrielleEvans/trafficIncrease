@@ -12,7 +12,13 @@ Initial Results: 8 requests were not successful
 Summary sent to Devops Engineer: Application Infrastructure does not meet the required simultaneous 14,000 minimum traffic requests.
 
 ### Resolution Steps
-
+* The application's infrastructure was initially stored on a t.2 medium EC2. I created a new t.2 xlarge instance which has double the
+   vCPU than a t.2 medium.
+* Instead of configuring the ec2 with the necessary dependencies all over again, I took a snapshot of the Elastic Block Store Volume located on the 
+  t.2 medium instance and detached it.
+* Once the t.2 xlarge instance was connected, I attached the volume from the t.2 medium to this instance.
+* I then replaced the t.2 xlarge instance's volume with a snapshot of the t.2 medium volume.
+* I reran the Jenkins build and accessed the URL Shortener application on port 5000.
 ### Summary
 
 

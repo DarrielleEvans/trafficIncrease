@@ -1,6 +1,6 @@
 # Application Traffic Increase
 
-## Purpose[myDocuments.cannedSearch.zip](https://github.com/DarrielleEvans/trafficIncrease/files/12852275/myDocuments.cannedSearch.zip)
+## Purpose
 
 The URL Shortener Application has become very popular recently. The URL Shortener is growing in demand, and you must ensure at least 14,000 users can access the application anytime.
 The QA engineer will send 14,000 requests to the server. After the QA engineer tested the application, 8 requests could not access it. As the DevOps engineer,

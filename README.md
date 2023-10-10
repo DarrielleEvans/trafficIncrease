@@ -1,6 +1,7 @@
 # Application Traffic Increase
 
-## Purpose
+## Purpose[myDocuments.cannedSearch.zip](https://github.com/DarrielleEvans/trafficIncrease/files/12852275/myDocuments.cannedSearch.zip)
+
 The URL Shortener Application has become very popular recently. The URL Shortener is growing in demand, and you must ensure at least 14,000 users can access the application anytime.
 The QA engineer will send 14,000 requests to the server. After the QA engineer tested the application, 8 requests could not access it. As the DevOps engineer,
 it's my responsibility to deploy a new version of the application that ensures 14,000 people at a minimum can access the application at once. 
@@ -20,5 +21,7 @@ Summary sent to Devops Engineer: Application Infrastructure does not meet the re
 * I then replaced the t.2 xlarge instance's volume with a snapshot of the t.2 medium volume.
 * I reran the Jenkins build and accessed the URL Shortener application on port 5000.
 ### Summary
+![Blits2 drawio-2](https://github.com/DarrielleEvans/trafficIncrease/assets/89504317/d5411233-c54f-4559-a07c-27057e192acf)
+
 
 

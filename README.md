@@ -20,8 +20,11 @@ Summary sent to Devops Engineer: Application Infrastructure does not meet the re
 * Once the t.2 xlarge instance was connected, I attached the volume from the t.2 medium to this instance.
 * I then replaced the t.2 xlarge instance's volume with a snapshot of the t.2 medium volume.
 * I reran the Jenkins build and accessed the URL Shortener application on port 5000.
-### Summary
+  
+### Diagram
 ![Blits2 drawio-2](https://github.com/DarrielleEvans/trafficIncrease/assets/89504317/d5411233-c54f-4559-a07c-27057e192acf)
 
+### Resources
+Detach AWS EBS Volume[https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-detaching-volume.html#umount-detach-volume]
 
 

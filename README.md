@@ -25,6 +25,6 @@ Summary sent to Devops Engineer: Application Infrastructure does not meet the re
 ![Blits2 drawio-2](https://github.com/DarrielleEvans/trafficIncrease/assets/89504317/d5411233-c54f-4559-a07c-27057e192acf)
 
 ### Resources
-[Detach AWS EBS Volume] (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-detaching-volume.html#umount-detach-volume)
+[Detach AWS EBS Volume](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-detaching-volume.html#umount-detach-volume)
 
 
